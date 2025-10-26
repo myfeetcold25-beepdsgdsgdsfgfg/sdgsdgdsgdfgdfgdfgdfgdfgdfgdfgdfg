@@ -5939,10 +5939,8 @@ end
         function cfg.set(text) 
             TextLabel.Text = text 
         end 
-
-        --
                     
-            return setmetatable(cfg, library)   
-        end 
-    --
+        return setmetatable(cfg, library)   
+    end 
+
 return library
